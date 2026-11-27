@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tellco-analytics"
+version = "0.1.0"
+description = "User overview, engagement, experience and satisfaction analytics for TellCo"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["pandas", "numpy", "scikit-learn", "openpyxl", "xgboost", "mlflow"]
+
+[project.optional-dependencies]
+dashboard = ["streamlit>=1.50", "plotly"]
+api = ["fastapi", "uvicorn"]
+dev = ["pytest", "pytest-cov", "flake8"]
+
+[project.scripts]
+tellco-run = "tellco.pipeline:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov=tellco --cov-report=term-missing"
