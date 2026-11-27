@@ -1,0 +1,22 @@
+{
+  "customers": 106856,
+  "scored_customers": 106856,
+  "best_model": "XGBoost",
+  "metrics": {
+    "Linear Regression": {
+      "MAE": 0.0297,
+      "RMSE": 0.0425,
+      "R2": 0.8187
+    },
+    "Random Forest": {
+      "MAE": 0.0024,
+      "RMSE": 0.0051,
+      "R2": 0.9974
+    },
+    "XGBoost": {
+      "MAE": 0.0015,
+      "RMSE": 0.0029,
+      "R2": 0.9992
+    }
+  }
+}

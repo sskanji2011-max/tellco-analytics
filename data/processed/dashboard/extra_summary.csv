@@ -1,0 +1,16 @@
+metric,value
+gini,0.3562310124080148
+top10_share,25.909205607428643
+weak_traffic_share,65.26549175736275
+weak_customer_share,66.95646477502433
+heavy_weak_pct,51.48514851485149
+cramers_v_brand,0.46234416385839006
+cramers_v_persona,0.0589737483856988
+router_vs_iphone_effect,0.7515573747143018
+busiest_block_start_hour,6.0
+busiest_block_share,21.229395373820793
+ari_min_engagement,0.9986527653491082
+ari_min_experience,0.9982027820204381
+experience_importance_share,97.36545245553498
+good_experience_ci_low,32.796426967133335
+good_experience_ci_high,33.311208542337354

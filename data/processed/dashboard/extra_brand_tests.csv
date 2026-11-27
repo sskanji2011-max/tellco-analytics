@@ -1,0 +1,5 @@
+Comparison,Median A (kbps),Median B (kbps),Rank-biserial r,p (Bonferroni x3)
+Apple vs Samsung,57.5,63.5,-0.039893318512946974,< 0.001
+Apple vs Huawei,57.5,4607.691248652007,-0.44500787955069965,< 0.001
+Samsung vs Huawei,63.5,4607.691248652007,-0.40032871165324035,< 0.001
+Huawei B528S-23A router vs all iPhones,10375.555491895593,57.5,0.7515573747143018,< 0.001
